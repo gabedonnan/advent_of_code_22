@@ -1,4 +1,3 @@
-
 import numpy as np
 
 def get_nums(line):
@@ -68,7 +67,6 @@ def move_box_2(box_mat, number, start, dest):
     return box_mat
 
 def main(boxes, instructions):
-    numbers = "0123456789"
     box_matrix = get_boxes(boxes)
     final = normalise_boxes(box_matrix)
     instruction_list = []
@@ -83,7 +81,6 @@ def main(boxes, instructions):
     return final
                 
 def main_2(boxes, instructions):
-    numbers = "0123456789"
     box_matrix = get_boxes(boxes)
     final = normalise_boxes(box_matrix)
     instruction_list = []
